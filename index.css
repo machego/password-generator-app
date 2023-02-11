@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Karla;  
+    src: url("Karla.ttf");    
+}
+
+@font-face {
+    font-family: Inter;
+    src: url("Inter.ttf");   
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*container*/
+
+.container{
+    width: 550px;
+    height: 550px;
+    top: 2px;
+    box-sizing: border-box;
+    border: 4px solid rgb(241, 177, 98);
+    border-radius: 18px;
+    margin: 12px auto;
+    position: relative;
+    background: #1F2937; 
+}
+
+/* Heading */
+.heading{
+    width: 354px;
+    height: 250px;
+    margin-left: 52px;
+    letter-spacing: -0.025em;
+}
+
+#heading-green {
+    color : #4ADF86
+}
+
+h1 {
+    margin-top: 82px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px; 
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4d8;   
+}
+
+hr {
+    width: 446px;
+    left: 52px;
+    top: 361px;
+    border: 1px solid #2F3E53;
+}
+
+#btn-password {
+
+    padding: 9px 17px 9px 15px;
+    margin-top: 32px;
+    margin-right: 50px;
+    width: 191px;
+    height: 42px;
+    
+    background: #10B981;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.05);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+  
+
+/* Random-Left*/
+.random-left{
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 396px;
+    background: #273549;
+    border-radius: 6px; 
+    color: rgb(241, 177, 98);
+    
+}
+
+/* Random-Right */
+.random-right{
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 287px;
+    top: 396px;
+    background: #273549;
+    border-radius: 6px;
+    color: rgb(241, 177, 98);
+}
+
+#random-left-text {
+    font-family: inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 36px;
+    margin-left: 32px;
+}
+
+#random-right-text {
+    font-family: inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 36px;
+    margin-left: 32px;
+}
