@@ -9,7 +9,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N",
 let randomLeftText = document.getElementById('random-left-text');
 let randomRightText = document.getElementById('random-right-text');
 
-function genPassword() {
+const genPassword = () => {
    randomLeftText.innerHTML = ""
    randomRightText.innerHTML = ""
     
